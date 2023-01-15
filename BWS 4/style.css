@@ -1,39 +1,296 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.navbar{
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: white;
-    height: 10rem;
+.navbar {
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  height: 7rem;
 }
 
-.navbar ul{
-    list-style: none;
+.navbar ul {
+  list-style: none;
+  text-decoration: none;
+  float: right;
+  margin-right: 13rem;
+  margin-top: 2.7rem;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 400;
+}
+
+.navbar img {
+  margin-left: 11rem;
+  margin-top: 2.5rem;
+  vertical-align: middle;
+  overflow: clip;
+  cursor: pointer;
+}
+
+.section1 {
+  background-image: url("background.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-size: cover;
+}
+
+.section1 > .child1 h1 {
+  font-size: 4.1rem;
+  margin-left: 11rem;
+  color: white;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 400;
+}
+
+.child1 p {
+  margin-left: 11rem;
+  font-size: 1.7rem;
+  color: white;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.child1 .contact-btn {
+  margin-left: 11rem;
+  background-color: white;
+  display: inline-block;
+  padding: 1rem 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+  font-size: 2rem;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+.card-1{
+  border: 1px solid black;
+  height: auto;
+  width: 35rem;
+  padding-bottom: 2rem;
+}
+
+.card-1 img{
+    width: 35rem;
+    background-size: auto;
+}
+.card-title{
+    text-align: center;
+    font-size: 1rem;
+    font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.card-2{
+    border: 1px solid black;
+    height: auto;
+    width: 35rem;
+    padding-bottom: 2rem;
+}
+
+.card-2 img{
+    width: 35rem;
+}
+
+.services-btn{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
-    float: right;
-    margin-right: 8rem;
-    margin-top: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    color: purple;
+    font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-.navbar li{
-    display: inline-block;
-    margin-top: 1rem;
-    margin-left: 6rem;
-    cursor: pointer;
-    font-size: 1.3rem;
-    font-family:'Times New Roman', Times, serif;
+
+.section4 > .dec1, .dec2, .dec3{
+  width: auto ;
+  height: auto ;
+  background-size: contain;
+  margin-left: 11rem;
 }
 
-.navbar img{
-    margin-left: 15rem;
-    margin-top: 3rem;
-    vertical-align: middle;
-    overflow: clip;
-    cursor: pointer;
+.section4 > img{
+  width: 45rem ;
+}
+
+.dec1-des{
+  background-image: url("detailbg.png");
+  color: white;
+  width: max-content;
+  z-index: 1;
+  position: relative;
+  top: -15rem;
+  left: 47%;
+  justify-content: center;
+  padding: 2.5rem;
+  padding-top: 1.3rem;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.dec1-des h2{
+  text-align: left;
+  font-size: 2rem;
+}
+.dec1-des p{
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.detail-btn{
+  background-color: white;
+  color: black;
+  width: max-content;
+  padding: 1rem 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.dec2 > .dec1-des{
+  position: relative;
+  left: 2rem;
+  top: -12rem;
+}
+
+.dec2 > img{
+  position: relative;
+  width: 45rem;
+  left: 25rem;
+}
+
+.contact{
+  display: block;
+  justify-content: center;
+  position: relative;
+  font-size: 2rem;
+  left: 25vw;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+
+.contact-btn3{
+  color: white;
+  background-color: blueviolet;
+  height: auto;
+  width: max-content;
+  padding: 0.4rem 2.4rem;
+  position: relative;
+  left: 18vw;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+}
+
+.section5{
+  display: block;
+  justify-content: center;
+  position: relative;
+  left: 25vw;
+  margin: 2rem;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.section5 p{
+  position: relative;
+  align-content: justify;
+}
+
+.contact2{
+  background-color: blueviolet;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  color: white;
+  font-size: 1.3rem;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.contact-btn2{
+  float: right;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: -8rem;
+  margin-right: 5rem;
+  padding-left:3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 13rem;
+  display: flex;
+  gap: 7rem;
+  font-size: 1.4rem;
+  padding: 5rem;
+  font-family: proxima-nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer p{
+  position: relative;
+  left: 2.4rem;
+  color: gray;
 }
